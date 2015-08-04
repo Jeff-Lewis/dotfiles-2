@@ -73,8 +73,27 @@ alias al='tail -f -n 100 storage/logs/laravel-$(date +"%Y-%m-%d").log'
 alias at=f_din
 alias atb=f_di
 
+# Npm
 
-# Project Frontend
+alias ni='npm install'
+alias nis='npm install --save'
+alias nt='npm test'
+
+# Bower
+
+alias boi='bower install'
+alias bou='bower update'
+
+# Grunt
+
+alias grs='grunt serve'
+alias grt='grunt test'
+alias grtc='grunt test:client'
+alias grts='grunt test:server'
+alias gr='grunt'
+alias grb='grunt build'
+
+# Gulp
 
 alias gud='gulp dev:without_watch'
 alias gcd='gulp config:dev'
